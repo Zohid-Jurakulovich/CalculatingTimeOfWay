@@ -1,0 +1,45 @@
+.title{
+  text-align: center;
+}
+
+.form{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.form__title{
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.form__unput{
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form__button{
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.list{
+  display: flex;
+  width: 900px;
+
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.list__item{
+  padding: 10px 40px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.list_text{
+  margin-top: 5px;
+}
