@@ -3,7 +3,7 @@
 }
 
 .form{
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -22,11 +22,35 @@
   padding: 10px 20px;
   border-radius: 10px;
 }
+.note{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.notification-error{
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid black;
+  background-color: crimson;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.notification-success{
+  
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: lightgreen;
+  border-radius: 5px;
+  text-align: center;
+}
 
 .list{
   display: flex;
-  width: 900px;
-
+  width: 1000px;
   justify-content: space-between;
   margin: 0 auto;
   padding: 0;
@@ -34,7 +58,8 @@
 }
 
 .list__item{
-  padding: 10px 40px;
+  width: 170px;
+  padding: 10px 20px;
   text-align: center;
   border: 1px solid black;
   border-radius: 10px;
